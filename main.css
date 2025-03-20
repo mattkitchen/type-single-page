@@ -10,6 +10,9 @@
     background-color: lightsteelblue;
     font-family: 'Forma';
 }
+.hero{
+    background-image: url("assets/color.gif");
+}
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* desktop margins controls  */
