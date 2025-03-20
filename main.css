@@ -16,7 +16,7 @@
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     /* desktop margins controls  */
-    width: min(100% - 3rem, 80ch);
+    width: min(100% - 3rem, 120ch);
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -52,6 +52,7 @@ footer{
 /* variable font animation */
 h5{
     font-size:  80px;
+    margin:5px;
 }
 h3{
     font-weight:20; 
@@ -121,6 +122,15 @@ h3{
     
 }
 
+.varcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
 /* variable font that changes on hover */
 .variable-font{

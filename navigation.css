@@ -13,7 +13,14 @@
       top:0px;
       position: fixed;
       z-index: 999;
-      width: 100%
+      width: 100%;
+      animation: headerchange 4s infinite;
+  }
+  @keyframes headerchange {
+      0% {background: #08f200;}
+      25% {background: #FF00BF;}
+      50% {background: #00BBFF;}
+      75% {background: #FFEE00;}
   }
   
   .logo {
