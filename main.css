@@ -7,7 +7,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: rgb(255, 255, 255);
     font-family: 'Forma';
 }
 .hero{
@@ -50,6 +50,9 @@ footer{
 }
 
 /* variable font animation */
+h5{
+    font-size:  80px;
+}
 h3{
     font-weight:20; 
     text-align: center;
@@ -65,6 +68,60 @@ h3{
     }
     
 }
+/* variations anims */
+.weight{ 
+    animation: variationsWeightChange 7s infinite;
+}
+
+@keyframes variationsWeightChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 0, "wght" 1, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 0, "wght" 900, "slnt" 0;
+    }
+    
+}
+
+.width
+{
+    animation: variationsWidthChange 7s infinite;
+}
+
+@keyframes variationsWidthChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 16, "wght" 400, "slnt" 0, "wdth" 50; 
+    }
+    50%{font-variation-settings: "opsz" 16, "wght" 400, "slnt" 0, "wdth" 100;
+    }
+    
+}
+
+.optical-size{ 
+    animation: variationsOpticalSizeChange 7s infinite;
+}
+
+@keyframes variationsOpticalSizeChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 8, "wght" 400, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 60, "wght" 400, "slnt" 0;
+    }
+    
+}
+
+.slant{
+    animation: variationsSlantChange 7s infinite;
+}
+@keyframes variationsSlantChange {
+    0%, 100%{
+        font-variation-settings: "opsz" 16, "wght" 400, "slnt" 0;
+    }
+    50%{font-variation-settings: "opsz" 16, "wght" 400, "slnt" -13;
+    }
+    
+}
+
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
@@ -91,3 +148,8 @@ h3{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-variation-settings: "opsz" 16, "wght" 500, "slnt" 0, "wdth" 50;
+}
